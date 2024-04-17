@@ -110,7 +110,7 @@ def main():
     print(f"Invalid Username Test (charlie:unknown): {success}")  # Should print False
 
     # Invalid Password Test
-    username = "bob"
+    username = "tim"
     password = "wrongpassword"
     success = login(username, password)
     print(f"Invalid Password Test (bob:wrongpassword): {success}")  # Should print False
